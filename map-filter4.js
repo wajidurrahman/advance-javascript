@@ -6,10 +6,10 @@ for (let i = 0; i < numbers.length; i++) {
     const result = element * element;
     output.push(result);   
 }
-
 console.log(output);
 
-const numbers = [3, 4, 5, 6, 7, 8];
+
+const numbers1 = [3, 4, 5, 6, 7, 8];
 function square (element){
     return element * element;
 }
@@ -18,7 +18,7 @@ numbers.map(function(element, index, array){
 })
 
 
-const numbers = [3, 4, 5, 6, 7, 8];
+const numbers2 = [3, 4, 5, 6, 7, 8];
 function square (element){
     return element * element;
 }
@@ -32,19 +32,19 @@ const result = numbers.map(function(element){
 console.log(result);
 
 
-const numbers = [3, 4, 5, 6, 7, 8];
-const result = numbers.map(x => x * x);
-console.log(result);
+const numbers3 = [3, 4, 5, 6, 7, 8];
+const result1 = numbers3.map(x => x * x);
+console.log(result1);
 
-const numbers = [3, 4, 5, 6, 7, 8];
-const bigger = numbers.filter(x => x < 5);
+const numbers4 = [3, 4, 5, 6, 7, 8];
+const bigger = numbers4.filter(x => x < 5);
 console.log(bigger);
 
 
-const numbers = [3, 4, 5, 6, 7, 8];
-const bigger = numbers.filter(x => x > 3);
-console.log(bigger);
+const numbers5 = [3, 4, 5, 6, 7, 8];
+const bigger1 = numbers5.filter(x => x > 3);
+console.log(bigger1);
 
-const numbers = [3, 4, 5, 6, 7, 8];
-const bigger = numbers.find(x => x > 5);
-console.log(bigger);
+const numbers6 = [3, 4, 5, 6, 7, 8];
+const bigger2 = numbers6.find(x => x > 5);
+console.log(bigger2);

@@ -4,6 +4,12 @@
 // []
 // {}
 
+//  Falsy value
+// 0
+// ""
+// undefined
+// null
+// NaN
 
 const age = 4;
 if (age > 0) {
@@ -109,7 +115,6 @@ else{
 // undefined
 // null
 // NaN
-
 
 const age = 0;
 if (age) {
